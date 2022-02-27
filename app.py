@@ -9,12 +9,17 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.activations import softmax
 import os
 import h5py
+from keras.utils.data_utils import get_file
+
+weights_path = get_file(
+            'model.h5',
+            'https://drive.google.com/uc?export=download&id=1C62T4IQJPFWolwLH6XziXn1MeBT7eDlR')
 
 
 
 
 def load_model():
-    model=tf.keras.models.load_model('https://drive.google.com/uc?export=download&id=1C62T4IQJPFWolwLH6XziXn1MeBT7eDlR')
+    model=tf.keras.models.load_model(weights_path)
     return model
 
 with st.spinner('Model is being loaded..'):
@@ -29,7 +34,7 @@ st.caption('This application provides only information, is not medical or treatm
 
 file_uploaded = st.file_uploader("Choose the file", type = ['jpg', 'png', 'jpeg'])
 st.set_option('deprecation.showfileUploaderEncoding', False)
-model=tf.keras.models.load_model('https://drive.google.com/uc?export=download&id=1C62T4IQJPFWolwLH6XziXn1MeBT7eDlR')
+model=tf.keras.models.load_model(weights_path)
 my_threshold = 0.48115918
 
 
