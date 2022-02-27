@@ -7,7 +7,6 @@ import numpy as np
 from tensorflow.keras import preprocessing
 from tensorflow.keras.models import load_model
 from tensorflow.keras.activations import softmax
-import cv2
 import os
 import h5py
 
