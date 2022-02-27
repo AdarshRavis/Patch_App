@@ -1,5 +1,5 @@
 Image
-matplotlib.pyplot
+matplotlib
 tensorflow
 tensorflow_hub
 numpy
