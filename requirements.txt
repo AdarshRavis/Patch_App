@@ -3,6 +3,5 @@ matplotlib
 tensorflow
 tensorflow_hub
 numpy
-cv2
 os
 h5py
