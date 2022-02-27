@@ -1,4 +1,4 @@
-PIL
+Image
 matplotlib.pyplot
 tensorflow
 tensorflow_hub
