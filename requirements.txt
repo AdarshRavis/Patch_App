@@ -3,9 +3,6 @@ matplotlib
 tensorflow
 tensorflow_hub
 numpy
-tensorflow.keras
-tensorflow.keras.models
-tensorflow.keras.activations
 cv2
 os
 h5py
