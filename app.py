@@ -14,7 +14,7 @@ import h5py
 
 
 def load_model():
-    model=tf.keras.models.load_model(r'/Users/adarsh/Desktop/Streamlit_CNN/TestPatch_20211212_best.h5')
+    model=tf.keras.models.load_model('https://drive.google.com/uc?export=download&id=1C62T4IQJPFWolwLH6XziXn1MeBT7eDlR')
     return model
 
 with st.spinner('Model is being loaded..'):
@@ -29,7 +29,7 @@ st.caption('This application provides only information, is not medical or treatm
 
 file_uploaded = st.file_uploader("Choose the file", type = ['jpg', 'png', 'jpeg'])
 st.set_option('deprecation.showfileUploaderEncoding', False)
-model=tf.keras.models.load_model(r'/Users/adarsh/Desktop/Streamlit_CNN/TestPatch_20211212_best.h5')
+model=tf.keras.models.load_model('https://drive.google.com/uc?export=download&id=1C62T4IQJPFWolwLH6XziXn1MeBT7eDlR')
 my_threshold = 0.48115918
 
 
