@@ -29,8 +29,9 @@ st.write("""
          # Patch Reader
          """)
 st.text("Adarsh Ravishankar, MD")
+st.text("University of Minnesota")
 
-st.caption('This application provides only information, is not medical or treatment advice and may not be treated as such by the user. As such, this application may not be relied upon for the purposes of medical diagnosis or as a recommendation for medical care or treatment. The information on this application is not a substitute for professional medical advice, diagnosis or treatment. All content, including text, graphics, images and information, contained on or available through this application is for general information purposes only ')
+st.caption('This application is not validated for use in medical diagnosis or treatment. This application provides only information, is not medical or treatment advice and may not be treated as such by the user. As such, this application may not be relied upon for the purposes of medical diagnosis or as a recommendation for medical care or treatment. The information on this application is not a substitute for professional medical advice, diagnosis or treatment. All content, including text, graphics, images and information, contained on or available through this application is for general information purposes only ')
 
 file_uploaded = st.file_uploader("Choose the file", type = ['jpg', 'png', 'jpeg'])
 st.set_option('deprecation.showfileUploaderEncoding', False)
