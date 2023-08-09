@@ -8,7 +8,6 @@ from tensorflow.keras import preprocessing
 from tensorflow.keras.models import load_model
 from tensorflow.keras.activations import softmax
 import os
-os.environ['PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION'] = 'python'
 
 import h5py
 from keras.utils.data_utils import get_file
