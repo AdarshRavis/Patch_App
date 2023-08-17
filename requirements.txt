@@ -5,4 +5,4 @@ tensorflow_hub
 numpy
 h5py
 keras
-protobuf~=3.19.0
+protobuf~=3.20.0
