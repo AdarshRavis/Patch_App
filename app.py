@@ -10,7 +10,7 @@ from tensorflow.keras.activations import softmax
 import os
 
 import h5py
-from tf.keras.utils import get_file
+from tensorflow.keras.utils import get_file
 
 weights_path = get_file(
             'model.h5',
